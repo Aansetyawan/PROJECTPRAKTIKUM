@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.aan.projectpraktikum">
-
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,7 +21,8 @@
         <activity android:name=".modul2.modul2_Activity" />
         <activity android:name=".modul2.modul2_isi_Activity" />
         <activity android:name=".modul3.modul3_Activity" />
-        <activity android:name=".modul3.modul3_isi_Activity"></activity>
+        <activity android:name=".modul3.modul3_isi_Activity" />
+        <activity android:name=".modul4.modul4_Activity"></activity>
     </application>
 
 </manifest>
